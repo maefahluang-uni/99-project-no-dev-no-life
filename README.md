@@ -2,9 +2,9 @@
 Botanical Garden Tour Guide System
 
 ## Members
-6431503048	Mathas supae
-6431503060	Sakonphat Srimethaatthakon
-6431503089	Thanitsara Umpondol
+- 6431503048	Mathas supae
+- 6431503060	Sakonphat Srimethaatthakon
+- 6431503089	Thanitsara Umpondol
 
 ## Instruction
 You need to create skeleton of your project's development. It does not necessary include the complete source code. Please follow instructions below:
