@@ -10,7 +10,7 @@ Botanical Garden Tour Guide System
 The Botanical Garden Tour Guide System application is an application that will serve as a guided tour of the Botanical Garden. It has the ability to be a user of details of plant species and details of each garden.
 
 ##function
--Map
--Blop
--search
--Edit from Admin
+- Map
+- Blop
+- search
+- Edit from Admin
