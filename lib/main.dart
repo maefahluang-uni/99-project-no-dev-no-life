@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bottom Navigation Bar',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: MyHomePage(),
     );
@@ -55,9 +55,24 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Bottom Navigation Bar Example'),
+        elevation: 0, // ทำให้ไม่มีเงา
+        actions: [
+          IconButton(
+            icon: Icon(Icons.settings),
+            onPressed: () {
+              // ทำงานเมื่อปุ่มถูกคลิก
+              print('Settings button clicked');
+            },
+          ),
+        ],
       ),
-      body: Container( // ใส่พื้นหลังสี
-        color: Color.fromARGB(255, 17, 131, 27),
+      body: Container( // ใส่ภาพพื้นหลัง
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("assets/BG.jpg"), // ตำแหน่งภาพใน assets
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Center(
           child: _widgetOptions.elementAt(_selectedIndex),
         ),
@@ -88,3 +103,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+

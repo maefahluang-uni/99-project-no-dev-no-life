@@ -5,7 +5,7 @@ class BaseLayout extends StatelessWidget{
   Widget build(BuildContext context){
     return  Scaffold(
       body:  Container(
-        child:  Column(
+        child:  Column(// background
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(
